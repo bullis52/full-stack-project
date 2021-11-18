@@ -1,0 +1,6 @@
+/front/node_modules/
+/front/package-lock.json
+/front/README.md
+/back/node_modules/
+/back/package-lock.json
+/back/.env
