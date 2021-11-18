@@ -1,0 +1,143 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.hideform {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.showform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+    visibility: visible;
+    overflow: auto;
+    transition: 1s all;
+    z-index: 5;
+}
+
+button {
+    position: relative;
+    z-index: 3;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+    opacity: 1;
+    position: relative;
+}
+
+input {
+    margin: 20px 0;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 0 0 30px;
+    background-color: mintcream;
+    border: none;
+}
+
+.form-button {
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 50px;
+    height: 40px;
+    border-radius: 10px;
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+}
+.users p{
+    width: 50px;
+}
+.usersQuotes{
+    padding: 100px 0 0 0 ;
+    font-size: 20px;
+    color: silver;
+    text-transform: uppercase;
+}
+.usersValue{
+    background-color: silver;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 0px 20px;
+    position: relative;
+}
+.showButton{
+    position: absolute;
+    right: 15%;
+    top: 40px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+.close-popup{
+    position: absolute;
+    bottom: 90%;
+    left: 70%;
+    background-color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login{
+    right: 5%;
+}
+.hide-login-form{
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.show-login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+    visibility: visible;
+    overflow: auto;
+    transition: 1s all;
+    z-index: 5;
+}
+.users-delete{
+    position: absolute;
+    right: -95px;
+    top: 16%;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: black;
+    text-transform: uppercase;
+    transition: 0.5s all;
+}
+.users-delete:hover{
+    background-color: red;
+    transition: 0.5s all;
+}
